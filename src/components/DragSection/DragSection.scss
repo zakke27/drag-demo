@@ -1,0 +1,52 @@
+.DragSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 50px;
+
+  text-align: center;
+  header {
+    width: inherit;
+    margin-bottom: 10px;
+  }
+  main {
+    width: 200px;
+    height: 400px;
+
+    input {
+      margin: 20px;
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    .btn {
+      margin-top: 20px;
+      border-radius: 50%;
+      border: none;
+      border: 1px solid black;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+
+.PREPARE {
+  background-color: #eedcdc;
+}
+.LEARNING {
+  background-color: #9cd28e;
+}
+.COMPLETE {
+  background-color: #dddddd;
+}
+
+.active {
+  border: dashed;
+  opacity: 0.7;
+}

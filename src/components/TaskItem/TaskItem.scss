@@ -1,0 +1,23 @@
+.TaskItem {
+  main {
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: move;
+
+    .delete-btn {
+      float: right;
+      margin-top: -8px;
+      margin-right: -8px;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: red;
+      border: none;
+      color: white;
+    }
+  }
+}
